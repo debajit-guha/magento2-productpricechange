@@ -1,0 +1,25 @@
+{
+    "name": "dj/module-productpricechange",
+    "description": "A module that increase the product price by a percentage, shows the use of plugins",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "email": "debjit.2892@gmail.com",
+            "name": "Debajit Guha"
+        }
+    ],
+    "require": {
+      "php": "~7.3.0||~7.4.0"
+    },
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Dj\\Productpricechange\\": ""
+      }
+    }
+}
